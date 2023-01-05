@@ -4,6 +4,8 @@ interface FontProps {
   tone?: string | null;
 }
 
+import foto from '../../../assets/images/letmain.jpg'
+
 export const PageMain = styled.main`
   height: auto;
   width: auto;
@@ -183,16 +185,7 @@ export const PresentContainer = styled.div`
       height: 16rem;
       width: 18.75rem;
       border-radius: 16rem;
-      background-image: url${() => {
-    let isDevelopment = 0;
-
-    if (isDevelopment === 0) {
-      return '(../../src/assets/images/letmain-17748a17.jpg)'
-    } else {
-      return '(../../src/assets/images/letmain.jpg)'
-    }
-
-  }};
+      background-image: url(${foto});
       background-size: 125%;
       background-position: 45% 10%;
       overflow: hidden;
