@@ -187,7 +187,7 @@ export const PresentContainer = styled.div`
     let isDevelopment = 0;
 
     if (isDevelopment === 0) {
-      return '(../../src/assets/images/letmain.jpg)'
+      return '(../../src/assets/images/letmain-17748a17.jpg)'
     } else {
       return '(../../src/assets/images/letmain.jpg)'
     }
