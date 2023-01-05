@@ -9,7 +9,7 @@ import anos60_4 from '../../../assets/images/anos60_4.jpeg';
 export const letSummary1 = [
   {
     infoTitle: 'Fotografia',
-    value: '91%'
+    value: '95%'
   },
 
   {
@@ -25,18 +25,18 @@ export const letSummary1 = [
 
 export const letSummary2 = [
   {
-    infoTitle: 'Midias Sociais',
+    infoTitle: 'Lightroom',
     value: '85%'
   },
 
   {
-    infoTitle: 'Marketing Digital',
-    value: '75%'
+    infoTitle: 'Photoshop',
+    value: '85%'
   },
 
   {
     infoTitle: 'Edição de fotos',
-    value: '92%'
+    value: '90%'
   },
 ];
 
